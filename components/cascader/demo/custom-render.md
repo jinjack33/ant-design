@@ -17,7 +17,7 @@ const options = [{
     children: [{
       value: 'xihu',
       label: '西湖',
-      code: 752100,
+      code: 310030,
     }],
   }],
 }, {
