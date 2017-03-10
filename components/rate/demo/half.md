@@ -8,5 +8,5 @@ title: 半星
 ````jsx
 import { Rate } from 'antd';
 
-ReactDOM.render(<Rate allowHalf defaultValue={2.5} />, mountNode);
+ReactDOM.render(<div><Rate allowHalf defaultValue={2.5}<span className="ant-rate-text">{value} 星</span></div> />, mountNode);
 ````
